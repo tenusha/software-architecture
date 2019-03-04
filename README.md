@@ -1,4 +1,4 @@
-# software-architecture-lab
+# Software Architecture
 Software Architecture Lab Sessions
 * Design Patterns
 * OSGi - Apache Felix

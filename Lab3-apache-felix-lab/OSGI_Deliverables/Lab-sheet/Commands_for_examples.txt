@@ -1,0 +1,40 @@
+					Execute examples
+					=================
+
+
+Compile example2:- 
+================
+C:\Udara\tutorial\example2> 
+javac -cp C:\Users\it16170162\Downloads\Lab3\OSGI_Deliverables\Framework\felix-framework-4.0.3\bin\felix.jar *.java service\*.java
+
+Create Jar with manifest:-
+=======================
+jar cfm example2.jar manifest_example2.mf -C C:\Users\it16170162\Downloads\Lab3\OSGI_Deliverables\Source_code\tutorial ..\tutorial\example2
+
+Login to felix:-
+===============
+/felix-framework-4.0.3/>java -jar bin/felix.jar
+
+install file:/C:/Users/it16170162/Downloads/Lab3/OSGI_Deliverables/Source_code/tutorial/example2.jar
+
+start file:/C:/Users/it16170162/Downloads/Lab3/OSGI_Deliverables/Source_code/tutorial/example2.jar
+
+stop file:/C:/Users/it16170162/Downloads/Lab3/OSGI_Deliverables/Source_code/tutorial/example2.jar
+
+
+
+Compile Example5:-
+================
+C:\Udara\tutorial\example5>
+javac -cp C:\Udara\felix-framework-4.0.3\bin\felix.jar;C:\Udara\tutorial\example2.jar *.java
+
+Create Jar with manifest:-
+=======================
+jar cfm example5.jar manifest.mf -C C:\Udara \tutorial\example5
+
+
+install file:/C:/Udara/tutorial/example5/example5.jar
+
+start file:/C:/Udara/tutorial/example2.jar
+
+stop file:/C:/Udara/tutorial/example2.jar

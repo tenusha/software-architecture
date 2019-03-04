@@ -1,0 +1,5 @@
+new>other>plug in project
+
+an osgi framework>equinox
+generate and....
+finish
